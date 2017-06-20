@@ -3,7 +3,8 @@
 
 body {
 	/*font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';*/
-}
+/*	background-image: url("../assets/images/brushed_alu_@2X.png");
+*/}
 
 #frame {
 }
@@ -76,24 +77,28 @@ h2 {
 	overflow: auto;
 	width: 650px;
 	background: white;
+	/*position: relative;*/
 }
 
 .aboutMePic {
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	height: 150px;
+	width: 150px;
 }
 
 #side {
 	width: 270px;
 	background-color: white;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 25px;
+	padding-bottom: 35px;
 	border: 2px solid silver;
 	float: right;
 	margin-right: 120px;
 	margin-top: 25px;
+	/*position: relative;*/
 }
 
 footer {
