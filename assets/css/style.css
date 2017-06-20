@@ -1,7 +1,16 @@
 
 /**/
 
+body {
+	/*font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';*/
+}
+
 #frame {
+}
+
+.topBox {
+	border-bottom: 5px;
+  	border-color: silver;
 }
 
 header {
@@ -9,8 +18,8 @@ header {
   	margin-bottom: 20px;
   	color: #333;
   	background-color: white;
-  	border-bottom: 5px;
-  	border-color: silver;
+  	float: left;
+  	width: 100%;
 }
 
 #headerLarge {
@@ -24,19 +33,30 @@ header {
 	float: left;
 }
 
+nav {
+	float: right;
+	text-align: center;
+	margin-right: 180px;
+}
+
 #about {
 	float: left;
 	font-size: 18px;
+	padding: 15px;
 }
 
 #portfolio {
 	float: left;
 	font-size: 18px;
+	padding: 15px;
+
 }
 
 #contact {
 	float: left;
 	font-size: 18px;
+	padding: 15px;
+
 }
 
 h1 {
@@ -51,14 +71,29 @@ h2 {
 	font-weight: bold;
 }
 
-#main {
+.main {
+	clear: both;
+	overflow: auto;
 	width: 650px;
 	background: white;
+}
+
+.aboutMePic {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 #side {
 	width: 270px;
 	background-color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 2px solid silver;
+	float: right;
+	margin-right: 120px;
+	margin-top: 25px;
 }
 
 footer {
