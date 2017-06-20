@@ -1,0 +1,74 @@
+
+/**/
+
+#frame {
+}
+
+header {
+	padding-left: 60px;
+  	margin-bottom: 20px;
+  	color: #333;
+  	background-color: white;
+  	border-bottom: 5px;
+  	border-color: silver;
+}
+
+#headerLarge {
+	font-size: 28px;
+	color: white;
+	background: cadetblue;
+	font-weight: bold;
+	padding: 20px;
+	width: 170px;
+	text-align: center;
+	float: left;
+}
+
+#about {
+	float: left;
+	font-size: 18px;
+}
+
+#portfolio {
+	float: left;
+	font-size: 18px;
+}
+
+#contact {
+	float: left;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 28px;
+	color: cadetblue;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 22px;
+	color: cadetblue;
+	font-weight: bold;
+}
+
+#main {
+	width: 650px;
+	background: white;
+}
+
+#side {
+	width: 270px;
+	background-color: white;
+}
+
+footer {
+	background: dimgray;
+	border-top-style: solid;
+	border-color: cadetblue;
+	border-width: 6px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 12px;
+	font-color: darkgray;
+}
