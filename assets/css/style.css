@@ -3,10 +3,12 @@
 
 body {
 	/*font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';*/
-/*	background-image: url("../assets/images/brushed_alu_@2X.png");
-*/}
+	background-image: url("../images/brushed_alu_@2X.png");
+}
 
 #frame {
+	width: 60%;
+
 }
 
 .topBox {
@@ -76,7 +78,10 @@ h2 {
 	clear: both;
 	overflow: auto;
 	width: 650px;
-	background: white;
+	background-color: white;
+	padding-left: 20px;
+	display: inline-block;
+	height: auto;
 	/*position: relative;*/
 }
 
@@ -97,7 +102,7 @@ h2 {
 	border: 2px solid silver;
 	float: right;
 	margin-right: 120px;
-	margin-top: 25px;
+	margin-top: -45px;
 	/*position: relative;*/
 }
 
@@ -111,4 +116,45 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	font-color: darkgray;
+	clear: both;
+}
+
+button {
+	background-color: cadetblue;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+
+#port-pics {
+	margin-left: 10px;
+	width: auto;
+	position: relative;
+}
+
+.img-port {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+}
+
+.pix {
+	position: relative;
+	width: 160px;
+	float: left;
+}
+
+.ribbon {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	background-color: #4aaaa5;
+	z-index: 1;
+	opacity: 0.9;
+	color: white;
+	margin: 95px 0 0 5px;
+	text-align: center;
+	padding-top: 10px;
 }
