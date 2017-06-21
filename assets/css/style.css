@@ -13,14 +13,20 @@ section {
 
 
 
-#frame {
-	width: 60%;
-
+.topBox {
+	border-bottom-width: 5px;
+  	border-color: silver;
+    height: 72px;
+    width: 100%;
+    background-color: white;
+    border-bottom-style: solid;
 }
 
-.topBox {
-	border-bottom: 5px;
-  	border-color: silver;
+.topRow {
+	width: 950px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 header {
@@ -32,7 +38,7 @@ header {
   	width: 100%;
 }
 
-#headerLarge {
+.headerLarge {
 	font-size: 28px;
 	color: white;
 	background: cadetblue;
@@ -49,24 +55,17 @@ nav {
 	margin-right: 180px;
 }
 
-#about {
-	float: left;
-	font-size: 18px;
+.menu {
+	display: inline-block;
+    color: darkgray;
+    background-color: white;
+    width: 70px;
+    border-right: 1px solid #eee;
+    vertical-align: middle;
+    font-size: 18px;
 	padding: 15px;
-}
-
-#portfolio {
 	float: left;
-	font-size: 18px;
-	padding: 15px;
-
-}
-
-#contact {
-	float: left;
-	font-size: 18px;
-	padding: 15px;
-
+    line-height: 18px;
 }
 
 h1 {
@@ -87,9 +86,9 @@ h2 {
 	width: 650px;
 	background-color: white;
 	padding-left: 20px;
-	display: inline-block;
-	height: auto;
-	/*position: relative;*/
+/*	display: inline-block;
+/**/	height: auto;
+*/	/*position: relative;*/
 }
 
 .aboutMePic {
@@ -304,6 +303,12 @@ h3 {
     opacity: 1;
 }
 
+nav {
+	float: right;
+	text-align: center;
+	
+}
+
 footer {
     background-color: #666666;
     color: #aeb2b2;
@@ -467,8 +472,3 @@ button {
 	margin: 95px 0 0 5px;
 	text-align: center;
 	padding-top: 10px;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 6c912ac469ae92b1ab138abbefe3a8c5d8d13387
