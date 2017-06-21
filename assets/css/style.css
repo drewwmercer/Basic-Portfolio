@@ -1,10 +1,17 @@
-
-/**/
-
 body {
-	/*font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';*/
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url("../images/brushed_alu_@2X.png");
+	color: darkgray;
 }
+
+section {
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 35px;
+}
+
+
+
 
 #frame {
 	width: 60%;
@@ -74,9 +81,9 @@ h2 {
 	font-weight: bold;
 }
 
-.main {
-	clear: both;
-	overflow: auto;
+.main-body {
+	/*clear: both;*/
+	/*overflow: auto;*/
 	width: 650px;
 	background-color: white;
 	padding-left: 20px;
@@ -93,7 +100,7 @@ h2 {
 	width: 150px;
 }
 
-#side {
+#aside {
 	width: 270px;
 	background-color: white;
 	text-align: center;
@@ -104,6 +111,302 @@ h2 {
 	margin-right: 120px;
 	margin-top: -45px;
 	/*position: relative;*/
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/nice_snow.png");
+    margin: 0px;
+}
+
+.content-area {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.header-line {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 72px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #cccccc;
+}
+
+.header-area {
+    width: 960px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+header {
+    float: left;
+    height: 74px;
+    width: 270px;
+}
+
+.name {
+    vertical-align: middle;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    line-height: 74px;
+    font-size: 30px;
+    padding: 0px 38px 0px 30px;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    width: 230px;
+    text-align: center;
+    line-height: 74px;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #777777;
+    background-color: #ffffff;
+    width: 70px;
+    line-height: 20px;
+    border-right: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.nav-link:hover {
+    background-color: #aeb2b2;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+section {
+    margin: 40px 0px 37px 0px;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.about-me {
+    width: 588px;
+    padding: 0px 30px 40px 30px;
+    background-color: #ffffff;;
+    display: inline-block;
+    border: 1px solid #aeb2b2;
+    margin-right: 40px; 
+    margin-bottom: 38px;
+}
+
+.article-heading {
+    font-size: 30px;
+    line-height: 90px;
+    width: 250px;
+    vertical-align: middle;
+    color: #4aaaa5;
+}    
+
+.bio-divider {
+    height: 3px;
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.image {
+    float: left;
+    height: 200px;
+    padding-right: 25px;
+    padding-top: 18px;    
+}
+
+.bio-text {
+    vertical-align: top;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 18px;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    line-height: 16px;
+    padding-bottom: 18px;
+}
+.aside {
+    float: right;
+    width: 208px;
+    background-color: #ffffff;
+    padding: 30px 30px 40px 30px;
+    border: 1px solid #aeb2b2;
+}
+
+.connect-divider {
+    height: 2px;
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.connect-image-github {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    padding-top: 23px;
+    margin-right: 9.5px;
+}
+
+.connect-image-linkedin {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    padding-top: 23px;
+    margin-right: 9.5px;
+}
+
+.connect-image-stack {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    padding-top: 23px;
+ }
+
+.img__wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.img__description {
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+    height: 35px;
+    vertical-align: middle;
+    color: #4aaaa5
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+footer {
+    background-color: #666666;
+    color: #aeb2b2;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 84px;
+    width: 100%;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+ }
+
+.copyright {
+    font-size: 12px;
+    line-height: 94px;
+    vertical-align: middle;
+}
+
+
+
+
+.image-div {
+    display: inline-block;
+    height: 200px;
+    width: 275px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.portfolio-image {
+    height: 200px;
+    width: 275px;
+}
+
+.portfolio-name {
+    font-size: 19px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    height: 60px;
+    width: 275px;
+    z-index: 99;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 10px;
+}
+
+
+
+
+.contact-text {
+    vertical-align: top;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+input {
+    font-size: 16px;
+    line-height: 35px;
+    width: 100%;
+    margin-top: 12px;
+    vertical-align: middle;
+    border: 1px solid #d8d8d8;
+    color: #aeb2b2;
+    padding-left: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.message-input {
+    height: 200px;
+    width: 588px;
+    vertical-align: top;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 12px;
+    border: 1px solid #d8d8d8;
+    color: #aeb2b2;
+    padding-left: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.submit-click {
+    color: white;
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    background-color: cadetblue;
+}
+
+.text-box {
+    color: cadet blue;
+	height: 200px;
+    width: 575px;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    padding-left: 10px;
 }
 
 footer {
@@ -143,6 +446,13 @@ button {
 	position: relative;
 	width: 160px;
 	float: left;
+}
+
+.contact-me {
+    font-size: 15px;
+	vertical-align: top;
+    line-height: 25px;
+    padding-top: 20px;
 }
 
 .ribbon {
