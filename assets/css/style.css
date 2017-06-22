@@ -246,6 +246,7 @@ html {
     height: 90px;
     clear: both;
     border-top: 10px solid cadetblue;
+    text-align: center;
 }
 
 .profile-pic {
