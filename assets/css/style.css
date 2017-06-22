@@ -1,474 +1,295 @@
-body {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url("../images/brushed_alu_@2X.png");
-	color: darkgray;
+* {
+	box-sizing: border-box;
 }
 
-section {
-	display: inline-block;
-	margin-top: 40px;
-	margin-bottom: 35px;
+/* Icons & Connect Section*/
+
+.icons {
+	height: 67px;
+	width: 67px;
 }
 
-
-
-
-.topBox {
-	border-bottom-width: 5px;
-  	border-color: silver;
-    height: 72px;
-    width: 100%;
-    background-color: white;
-    border-bottom-style: solid;
+.icons:first-of-type {
+	margin-left: -1px;
 }
 
-.topRow {
-	width: 950px;
-    height: 75px;
-    margin-left: auto;
-    margin-right: auto; 
+.icons-stack {
+	height: 62px;
+	width: 62px;
+	margin-bottom: 2px;
+	margin-left: 2px;
 }
 
-header {
-	padding-left: 60px;
-  	margin-bottom: 20px;
-  	color: #333;
-  	background-color: white;
-  	float: left;
-  	width: 100%;
-}
-
-.headerLarge {
-	font-size: 28px;
-	color: white;
-	background: cadetblue;
-	font-weight: bold;
-	padding: 20px;
-	width: 170px;
-	text-align: center;
-	float: left;
-}
-
-nav {
+.connect-section {
+	box-sizing: border-box;
 	float: right;
-	text-align: center;
-	margin-right: 180px;
-}
-
-.menu {
-	display: inline-block;
-    color: darkgray;
-    background-color: white;
-    width: 70px;
-    border-right: 1px solid #eee;
-    vertical-align: middle;
-    font-size: 18px;
-	padding: 15px;
-	float: left;
-    line-height: 18px;
-}
-
-h1 {
-	font-size: 28px;
-	color: cadetblue;
-	font-weight: bold;
-}
-
-h2 {
-	font-size: 22px;
-	color: cadetblue;
-	font-weight: bold;
-}
-
-.main-body {
-	/*clear: both;*/
-	/*overflow: auto;*/
-	width: 650px;
-	background-color: white;
-	padding-left: 20px;
-/*	display: inline-block;
-/**/	height: auto;
-*/	/*position: relative;*/
-}
-
-.aboutMePic {
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	height: 150px;
-	width: 150px;
-}
-
-#aside {
 	width: 270px;
-	background-color: white;
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 35px;
-	border: 2px solid silver;
-	float: right;
-	margin-right: 120px;
-	margin-top: -45px;
-	/*position: relative;*/
+	border: solid 1px grey;
+	padding-left: 31px;
+	padding-right: 31px;
+	padding-bottom: 20px;
+	background: white;
 }
 
-body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-image: url("../images/nice_snow.png");
-    margin: 0px;
+#connect-heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	padding-top: 20px;
 }
 
-.content-area {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
+#connect-line {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-.header-line {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 72px;
-    width: 100%;
-    background-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-color: #cccccc;
+/* End Icons & Connect Section */
+
+/* Headings & Text */
+
+.my-name {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	color: white;
+	background: #4aaaa5;
+	display: inline-block;
+	padding-left: 33px;
+	padding-right: 33px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-.header-area {
-    width: 960px;
-    height: 74px;
-    margin-left: auto;
-    margin-right: auto;   
-}
-header {
-    float: left;
-    height: 74px;
-    width: 270px;
+h2.headings {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	padding-top: 10px;
 }
 
-.name {
-    vertical-align: middle;
-    color: #ffffff;
-    font-weight: bold;
-    background-color: #4aaaa5;
-    line-height: 74px;
-    font-size: 30px;
-    padding: 0px 38px 0px 30px;
-    display: inline-block;
+.teal-words {
+	color: #4aaaa5;
 }
 
-nav {
-    float: right;
-    width: 230px;
-    text-align: center;
-    line-height: 74px;
-    font-size: 14px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+li {
+	display: inline;
+	color: grey;
 }
 
 .nav-link {
-    display: inline-block;
-    text-decoration: none;
-    color: #777777;
-    background-color: #ffffff;
-    width: 70px;
-    line-height: 20px;
-    border-right: 1px solid #eee;
-    vertical-align: middle;
+	color: grey;
+	text-decoration: none;
 }
 
-.nav-link:hover {
-    background-color: #aeb2b2;
-    color: #4aaaa5;
-    font-weight: bold;
-}
-
-section {
-    margin: 40px 0px 37px 0px;
-    display: inline-block;
-}
-
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    font-weight: bold;
-}
-
-.about-me {
-    width: 588px;
-    padding: 0px 30px 40px 30px;
-    background-color: #ffffff;;
-    display: inline-block;
-    border: 1px solid #aeb2b2;
-    margin-right: 40px; 
-    margin-bottom: 38px;
-}
-
-.article-heading {
-    font-size: 30px;
-    line-height: 90px;
-    width: 250px;
-    vertical-align: middle;
-    color: #4aaaa5;
-}    
-
-.bio-divider {
-    height: 3px;
-    background-color: #dcdcdc;
-    border: none;
-}
-
-.image {
-    float: left;
-    height: 200px;
-    padding-right: 25px;
-    padding-top: 18px;    
-}
-
-.bio-text {
-    vertical-align: top;
-    text-align: justify;
-    font-size: 17px;
-    line-height: 25px;
-    padding-top: 18px;
-}
-
-h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    font-weight: bold;
-    text-align: left;
-    font-size: 22px;
-    line-height: 16px;
-    padding-bottom: 18px;
-}
-.aside {
-    float: right;
-    width: 208px;
-    background-color: #ffffff;
-    padding: 30px 30px 40px 30px;
-    border: 1px solid #aeb2b2;
-}
-
-.connect-divider {
-    height: 2px;
-    background-color: #dcdcdc;
-    border: none;
-}
-
-.connect-image-github {
-    height: 60px;
-    width: 60px;
-    vertical-align: middle;
-    padding-top: 23px;
-    margin-right: 9.5px;
-}
-
-.connect-image-linkedin {
-    height: 60px;
-    width: 60px;
-    vertical-align: middle;
-    padding-top: 23px;
-    margin-right: 9.5px;
-}
-
-.connect-image-stack {
-    height: 60px;
-    width: 60px;
-    vertical-align: middle;
-    padding-top: 23px;
- }
-
-.img__wrap {
-    position: relative;
-    display: inline-block;
-}
-
-.img__description {
-    position: absolute;
-    bottom: -40px;
-    text-align: center;
-    height: 35px;
-    vertical-align: middle;
-    color: #4aaaa5
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-}
-
-.img__wrap:hover .img__description {
-    visibility: visible;
-    opacity: 1;
-}
-
-nav {
+.nav-text {
+	padding-top: 20px;
 	float: right;
+}
+
+.nav-about {
+	margin-right: 10px;
+}
+
+.nav-portfolio {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-contact {
+	margin-left: 10px;
+}
+
+.main-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	line-height: 150%;
+}
+
+
+/* End Headings & Text */
+
+/* Other Layout */
+
+body {
+	box-sizing: border-box;
+	background-image: url("../images/brushed_alu_@2X.png");
+}
+
+.profile-pic {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.main-section {
+	box-sizing: border-box;
+	max-width: 650px;
+	min-width: 650px;
+	padding-left: 33px;
+	padding-right: 33px;
+	border: 1px grey solid;
+	float: left;
+	clear: right;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+#main-section-line {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.content-area {
+	box-sizing: border-box;
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+header {
+	background: white;
+}
+
+.header-content {
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* End Other Layout */
+
+/* Portfolio Page */
+
+.image-holder {
+	position: relative;
+	width: 274px;
+	float: left;
+}
+
+.project-label {
+	box-sizing: border-box;
+	position: absolute;
+	top: 136px;
+	background: #4aaaa5;
+	color: white;
+	height: 60px;
+	padding-top: 21px;
+	width: 100%;
 	text-align: center;
-	
+	font-size: 19px;
 }
 
-footer {
-    background-color: #666666;
-    color: #aeb2b2;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    height: 84px;
-    width: 100%;
-    text-align: center;
-    border-top-style: solid;
-    border-top-width: 10px;
-    border-top-color: #4aaaa5;
- }
-
-.copyright {
-    font-size: 12px;
-    line-height: 94px;
-    vertical-align: middle;
+.image-left {
+	margin-left: 0px;
+	margin-right: 17px;
 }
 
+.image-right {
+	margin-left: 17px;
+	margin-right: 0px;
 
-
-
-.image-div {
-    display: inline-block;
-    height: 200px;
-    width: 275px;
-    margin-bottom: 55px;
-    position: relative;
 }
 
-.portfolio-image {
-    height: 200px;
-    width: 275px;
+.row1 {
+	margin-top: 5px;
+	margin-bottom: 40px;
 }
 
-.portfolio-name {
-    font-size: 19px;
-    line-height: 60px;
-    text-align: center;
-    vertical-align: middle;
-    position: absolute;
-    height: 60px;
-    width: 275px;
-    z-index: 99;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    bottom: 10px;
+.row2 {
+	margin-bottom: 40px;
 }
 
+.row3 {
+	margin-bottom: 10px;
+}
 
+/* End Portfolio Page */
 
+/* Contact Page */
 
-.contact-text {
-    vertical-align: top;
-    font-size: 17px;
-    line-height: 25px;
-    padding-top: 20px;
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	margin-top: 15px;
+}
+
+#name {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#email {
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 input {
-    font-size: 16px;
-    line-height: 35px;
-    width: 100%;
-    margin-top: 12px;
-    vertical-align: middle;
-    border: 1px solid #d8d8d8;
-    color: #aeb2b2;
-    padding-left: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
 }
 
-.message-input {
-    height: 200px;
-    width: 588px;
-    vertical-align: top;
-    font-size: 17px;
-    line-height: 25px;
-    margin-top: 12px;
-    border: 1px solid #d8d8d8;
-    color: #aeb2b2;
-    padding-left: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.submit-click {
-    color: white;
-    font-size: 18px;
-    height: 45px;
-    width: 120px;
-    background-color: cadetblue;
-}
-
-.text-box {
-    color: cadet blue;
-	height: 200px;
-    width: 575px;
-    vertical-align: top;
-    font-size: 18px;
-    line-height: 25px;
-    margin-top: 15px;
-    border: 1px solid gray;
-    padding-left: 10px;
-}
-
-footer {
-	background: dimgray;
-	border-top-style: solid;
-	border-color: cadetblue;
-	border-width: 6px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 12px;
-	font-color: darkgray;
-	clear: both;
+textarea {
+	width: 100%;
+	height: 205px;
+	margin-top: 15px;
 }
 
 button {
-	background-color: cadetblue;
+	background: #4aaaa5;
+	border: 0px;
+	height: 45px;
+	width: 120px;
 	color: white;
-	padding: 20px;
-	float: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	margin-top: 23px;
 }
 
-#port-pics {
-	margin-left: 10px;
-	width: auto;
-	position: relative;
+/* End Contact Page */
+
+
+/* Footer */
+
+footer {
+	background: #666666;
+	clear: both;
+	height: 80px;
 }
 
-.img-port {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	margin: 5px;
-}
-
-.pix {
-	position: relative;
-	width: 160px;
-	float: left;
-}
-
-.contact-me {
-    font-size: 15px;
-	vertical-align: top;
-    line-height: 25px;
-    padding-top: 20px;
-}
-
-.ribbon {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	position: absolute;
-	width: 150px;
-	height: 50px;
-	background-color: #4aaaa5;
-	z-index: 1;
-	opacity: 0.9;
+#footer-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
-	margin: 95px 0 0 5px;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 40px;
+	font-size: 12px;
+}
+
+/* End Footer */
+
+/* Sticky Footer */
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 150px;
+}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+    margin-top: -90px; /* negative value of footer height */
+    height: 90px;
+    clear: both;
+    border-top: 10px solid #4aaaa5;
+}
+
+.profile-pic {
+	height: 150px;
+}

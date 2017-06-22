@@ -8,58 +8,55 @@
 </head>
 
 <body>
-	<div class="topBox">	
-		<header>
-			<h1 id="headerLarge">Drew Mercer</h1>
-			
-			<nav>
-				<h3 id="about"><a href="index.html">About</a></h3>
-				
-				<h3 id="portfolio"><a href="portfolio.html">Portfolio</a></h3>
+    <div id="wrap">
+    	<header>
+		    <div class="header-content">
+		        <h1 class="my-name">Drew Mercer</h1>
+		        <nav class="nav-text">
+		            <ul>
+		                <li><a href="index.html" class="nav-link nav-about">About</a> | </li>
+		                <li><a href="portfolio.html" class="nav-link nav-portfolio">Portfolio</a> | </li>
+		                <li><a href="contact.html" class="nav-link nav-contact">Contact</a> </li>
+		            </ul>
+		        </nav>
+		    </div>
 
-				<h3 id="contact"><a href="contact.html">Contact</a></h3>
-			</nav>
-
-		</header>
-	</div>
-
-	<div class="main-body">
-		<section>
-
-			<article class="contact-box">
-				<h1>Contact</h1>
-
-				<hr width="610px">
-
-			 	<form class="contact-me">
-					<strong>Name</strong>
-					<br>
-					<input type="text" name="John Smith">
-					<br>
-					<strong>Email</strong><br>
-					<input type="email" name="example@gmail.com">
-					<br>
-					<strong>Message</strong><br>
-					<textarea class="text-box"></textarea>
-					<br>
-					<input class="submit-click" type="submit" value="Submit">
-				</form>
-			</article>
-      	
-			<aside class="aside">
-					<h2>Connect with Me</h2>
-
-					<hr width="215px">
-
-					<a href="https://github.com/drewwmercer" target="_blank"><img src="assets/images/icon-github.svg" alt="github" /></a>
-					<a href="https://www.linkedin.com/in/awmercer/" target="_blank"><img src="assets/images/icon-linkedin.svg" alt="LinkedIn" /></a>
-					<a href="https://stackoverflow.com/users/8117087/japanexpress" target="_blank"><img src="assets/images/icon-stackoverflow.svg" alt="Stack Overflow" /></a>
-			</aside>
+    </header> 
+    
+	<div class="content-area">
+	<main>
+		<section class="main-section">
+		<h2 class="headings teal-words">Contact</h2>
+		<hr id="main-section-line">
+			<form>
+		      	<label for="name">Name:</label>
+		      	<input type="text" id="name" name="user_name" placeholder="John Smith">
+		      	<label for="email">Email:</label>
+		      	<input type="email" id="email" name="user_email" placeholder="example@gmail.com">
+		      	<label for="comment">Message:</label>
+		      	<textarea name="user_comment"></textarea>
+		      	<button type="submit">Submit</button>
+    		</form>
 		</section>
+	</main>
+      	
+			    <section class="connect-section">
+		        <h3 class="teal-words" id="connect-heading">Connect with Me</h3>
+		       
+		        <hr width="215px">
 
+		        <a href="https://github.com/drewwmercer" target="_blank"><img src="assets/images/icon-github.svg" alt="github" /></a>
+				<a href="https://www.linkedin.com/in/awmercer/" target="_blank"><img src="assets/images/icon-linkedin.svg" alt="LinkedIn" /></a>
+				<a href="https://stackoverflow.com/users/8117087/japanexpress" target="_blank"><img src="assets/images/icon-stackoverflow.svg" alt="Stack Overflow" /></a>
+		    </section>
+    	</div>
+    </div>
+
+	<div>
 		<footer>
 			&copy; Copyright 2017 Drew Mercer
 		</footer>	
-	</section>
+	</div>
+
 </body>
 </html>
