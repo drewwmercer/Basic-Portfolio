@@ -2,22 +2,10 @@
 	box-sizing: border-box;
 }
 
-/* Icons & Connect Section*/
-
-.icons {
-	height: 67px;
-	width: 67px;
-}
-
-.icons:first-of-type {
-	margin-left: -1px;
-}
-
-.icons-stack {
-	height: 62px;
-	width: 62px;
-	margin-bottom: 2px;
-	margin-left: 2px;
+body {
+	box-sizing: border-box;
+	background-image: url("../images/brushed_alu_@2X.png");
+	height: 100%;
 }
 
 .connect-section {
@@ -42,15 +30,11 @@
 	margin-bottom: 15px;
 }
 
-/* End Icons & Connect Section */
-
-/* Headings & Text */
-
 .my-name {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 32px;
 	color: white;
-	background: #4aaaa5;
+	background: cadetblue;
 	display: inline-block;
 	padding-left: 33px;
 	padding-right: 33px;
@@ -65,7 +49,7 @@ h2.headings {
 }
 
 .teal-words {
-	color: #4aaaa5;
+	color: cadetblue;
 }
 
 li {
@@ -100,16 +84,6 @@ li {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: grey;
 	line-height: 150%;
-}
-
-
-/* End Headings & Text */
-
-/* Other Layout */
-
-body {
-	box-sizing: border-box;
-	background-image: url("../images/brushed_alu_@2X.png");
 }
 
 .profile-pic {
@@ -158,9 +132,6 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* End Other Layout */
-
-/* Portfolio Page */
 
 .image-holder {
 	position: relative;
@@ -172,7 +143,7 @@ header {
 	box-sizing: border-box;
 	position: absolute;
 	top: 136px;
-	background: #4aaaa5;
+	background: cadetblue;
 	color: white;
 	height: 60px;
 	padding-top: 21px;
@@ -205,10 +176,6 @@ header {
 	margin-bottom: 10px;
 }
 
-/* End Portfolio Page */
-
-/* Contact Page */
-
 label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: grey;
@@ -236,7 +203,7 @@ textarea {
 }
 
 button {
-	background: #4aaaa5;
+	background: cadetblue;
 	border: 0px;
 	height: 45px;
 	width: 120px;
@@ -245,11 +212,6 @@ button {
 	font-size: 17px;
 	margin-top: 23px;
 }
-
-/* End Contact Page */
-
-
-/* Footer */
 
 footer {
 	background: #666666;
@@ -265,11 +227,7 @@ footer {
 	font-size: 12px;
 }
 
-/* End Footer */
-
-/* Sticky Footer */
-
-html, body {
+html {
 	height: 100%;
 }
 
@@ -280,14 +238,14 @@ html, body {
 #main {
 	overflow: auto;
 	padding-bottom: 150px;
-}  /* must be same height as the footer */
+}
 
 #footer {
 	position: relative;
-    margin-top: -90px; /* negative value of footer height */
+    margin-top: -90px;
     height: 90px;
     clear: both;
-    border-top: 10px solid #4aaaa5;
+    border-top: 10px solid cadetblue;
 }
 
 .profile-pic {
