@@ -17,6 +17,8 @@ body {
 	padding-right: 31px;
 	padding-bottom: 20px;
 	background: white;
+	text-align: center;
+	font-weight: bold;
 }
 
 #connect-heading {
@@ -50,6 +52,7 @@ h2.headings {
 
 .teal-words {
 	color: cadetblue;
+	font-weight: bold;
 }
 
 li {
@@ -139,7 +142,7 @@ header {
 	float: left;
 }
 
-.project-label {
+.ribbon-label {
 	box-sizing: border-box;
 	position: absolute;
 	top: 136px;
@@ -149,7 +152,7 @@ header {
 	padding-top: 21px;
 	width: 100%;
 	text-align: center;
-	font-size: 19px;
+	font-size: 22px;
 }
 
 .image-left {
@@ -251,4 +254,8 @@ html {
 
 .profile-pic {
 	height: 150px;
+}
+
+#foot-text {
+	text-align: center;
 }
